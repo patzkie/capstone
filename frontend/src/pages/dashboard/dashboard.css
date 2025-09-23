@@ -1,0 +1,6 @@
+.dashboard {
+  height: 100vh;       /* fit exactly the screen */
+  overflow: hidden;    /* stop whole page from scrolling */
+  display: flex;
+  flex-direction: column;
+}

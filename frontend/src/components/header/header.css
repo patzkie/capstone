@@ -1,0 +1,70 @@
+.header-box {
+  background-color: #0a1a5c; /* dark blue */
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 60px 16px 25px 16px;
+  margin: 80px 16px 16px; /* this pushes the box down */
+}
+
+
+.header-box h2 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.header-box p {
+  margin: 6px 0 12px;
+  font-size: 12px;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.header-box-easily{
+  padding-bottom: 20px;
+}
+
+.upcoming-section {
+  margin-top: 8px;
+}
+
+.upcoming-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-align: left !important; /* force override */
+}
+
+
+
+.event-card {
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.event-info h4 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.event-type {
+  margin: 2px 0 0;
+  font-size: 13px;
+  font-weight: 500;
+  color: #222;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.event-date {
+  font-size: 12px;
+  color: #333;
+}

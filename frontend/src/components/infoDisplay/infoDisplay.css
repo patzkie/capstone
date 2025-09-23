@@ -1,0 +1,37 @@
+.info-display {
+  max-height: calc(4 * 85px);  /* enough space for 4 items */
+  overflow-y: auto;            /* vertical scroll */
+  overflow-x: hidden;          /* prevent side scroll */
+  margin-top: 16px;
+  padding-right: 0px; 
+
+  /* add subtle shadow at bottom to hint scrolling */
+  position: relative;
+}
+
+.info-display::after {
+  content: "";
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 20px;
+  pointer-events: none;
+  background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.1));
+}
+
+/* Thin scrollbar for Chrome, Edge, Safari */
+.info-display::-webkit-scrollbar {
+  width: 3px; /* small width */
+}
+
+.info-display::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.842); 
+  border-radius: 4px;
+}
+
+.info-display::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+

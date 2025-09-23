@@ -1,0 +1,74 @@
+/* Make the whole login page center on small screens */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* full phone height */
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Card style for inputs */
+.login-input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 320px;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.login-input input {
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+  background: #fff;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Button */
+.login-btn {
+  width: 100%;
+  max-width: 320px;
+  padding: 14px;
+  background: #007aff;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 16px;
+  transition: background 0.3s ease;
+}
+
+.login-btn:hover {
+  background: #005bbb;
+}
+
+/* Terms + checkbox */
+.login-condition {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* Links */
+p {
+  font-size: 15px;
+  color: white;
+}
+
+p span {
+  color: yellow;
+  font-weight: bold;
+  cursor: pointer;
+}

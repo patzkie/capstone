@@ -1,0 +1,26 @@
+.car-info {
+  background-color: #f8f9ff;   /* light background */
+  padding: 25px 16px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 16px 20px;
+}
+
+.car-name {
+  font-weight: bold;
+  font-size: 14px;
+  color: #000;
+}
+
+.car-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
